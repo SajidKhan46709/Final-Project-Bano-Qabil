@@ -1,5 +1,5 @@
 # Bano-Qabil-Final-Project
-<h1>Final Project<br>Currency Converter</h1><br>
+<h1>Final Project:<br>Currency Converter</h1><br>
 <h4>Members:</h4><br>
 Sajid Khan(Leader)<br>
 Abdullah Javed<br>

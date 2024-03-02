@@ -73,7 +73,6 @@ def homepage():
 
 def applications():
     st.title("Applications")
-    st.sidebar.image("https://banoqabil.pk/media/logo.png", use_column_width=True)
     st.write("This page demonstrates the currency conversion functionality using real-time exchange rates.")
     st.write("You can enter an amount and select source and target currencies to convert.")
 
@@ -117,6 +116,7 @@ PAGES = {
 
 def main():
     st.sidebar.title("Navigation")
+    st.sidebar.image("https://banoqabil.pk/media/logo.png", use_column_width=True)
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
     page = PAGES[selection]
     page()

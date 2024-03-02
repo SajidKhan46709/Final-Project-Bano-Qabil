@@ -115,11 +115,13 @@ PAGES = {
 }
 
 def main():
+    sidebar_image_url = "https://banoqabil.pk/media/logo.png"
+    st.sidebar.image(sidebar_image_url, use_column_width=True)
     st.sidebar.title("Navigation")
-    st.sidebar.image("https://banoqabil.pk/media/logo.png", use_column_width=True)
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
     page = PAGES[selection]
     page()
 
 if __name__ == "__main__":
     main()
+    

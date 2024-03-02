@@ -73,6 +73,7 @@ def homepage():
 
 def applications():
     st.title("Applications")
+    st.sidebar.image("https://banoqabil.pk/media/logo.png", use_column_width=True)
     st.write("This page demonstrates the currency conversion functionality using real-time exchange rates.")
     st.write("You can enter an amount and select source and target currencies to convert.")
 
